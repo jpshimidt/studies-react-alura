@@ -25,6 +25,7 @@ class Formulario extends React.Component {
           <input
             type="time"
             step="1"
+            
             name="tempo"
             id="tempo"
             min="00:00:00"
@@ -32,7 +33,9 @@ class Formulario extends React.Component {
             required
           />
         </div>
-        <Botao />
+        <Botao>
+          Adicionar
+        </Botao>
       </form>
     )
   }
